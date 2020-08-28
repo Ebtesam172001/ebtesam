@@ -1,0 +1,67 @@
+*
+{border-radius:5px; text-transform:capitalize}
+.div1
+{background:black; color:white; height:40px; width:1200px;padding:15px; margin:-90px 0px; position:fixed}
+.span1
+{background:#00ff80; float:left; margin:3px; padding:10px}
+.span2
+{float:right; direction;ltr; margin:10px}
+.span2:hover
+{background:#00ff80; margin:0px; padding:10px}
+.class1,.class2,.class3,.class4
+{margin:10px; padding:10px;  position:fixed; left:-70px; width:60px; height:20px; transition:2s;z-index:1}
+.class1
+{top:79px; background:#00ff80}
+.class2
+{top:120px; background:#00e6b8}
+.class3
+{top:161px; background:rgb(172, 115, 57)}
+.class4
+{top:202px; background:#0049e6}
+.class1:hover ,.class2:hover ,.class3:hover ,.class4:hover
+{left:0px; width:100px}
+.div4
+{background:#00e6b8; width:1100px; height:900px; margin:90px 20px 50px 90px; padding:10px}
+h2
+{margin:10px 10px 0px -5px; padding:0px 0px 0px -25px}
+.p1
+{background:#80ffe5; margin:10px 5px 0px 20px; padding:15px;
+height:20px; width:900px; position:sticky; top:80px; left:0px}
+p
+{margin:10px 0px 0px 40px;}
+.div5
+{background-image:url("../images/img1.jpg"); height:300px; width:1050px; margin:10px 90px; padding:40px;
+border:2px solid#86592d}
+.p2
+{background:rgb(172, 115, 57); font-weight:20px; margin:90px 100px 20px; padding:16px;
+width:800px; height:10px; overflow:hidden;}
+.p2:hover
+{height:50px}
+.div5:hover:before
+{content:"What is meant by CSS?"; background:rgb(172, 115, 57);
+width:800px; height:20px; margin:30px 100px 10px; padding:10px; position:absolute}
+.div6
+{background:url("../images/img.jpg"); height:320px; width:1050px; margin:10px 90px; padding:40px; border:2px solid#00b300}
+.div7
+{background:#00ff00; margin:30px 20px 30px 50px; padding:10px; height:290px; width:900px}
+.div7 p
+{margin:10px 0px 10px 0px}
+p + div
+{background:#00ffcc; width:800px; height:10px; margin:10px 0px 10px 0px; padding:10px}
+.div7 p
+{background:#00cca3; width:800px; height:10px; margin:10px; padding:10px}
+.div7 p:hover~p
+{background:#00ffcc; transition:1s;}
+.div8
+{background:url("../images/image7.jpg"); height:400px; width:1050px; margin:10px 90px; padding:40px; border:2px solid#0049e6}
+.div8 p
+{background:#ccdcff; width:900px; height:75px; margin:150px 60px; padding:10px}
+.div8 p:first-letter
+{background:#0049e6; width:60px; height:30px; margin:2px; padding:3px; border-radius:15px;
+color:#4d0000; font-weight:bold; font-size:40px}
+.div8 p:first-line
+{background:#ffff}
+
+ 
+
+
