@@ -1,0 +1,188 @@
+body
+{
+	text-transform:capitalize;
+}
+.div
+{
+	background:url("../images/img1.jpg");
+	height:800px;
+	margin-top:-80px
+}
+a
+{
+	text-decoration:none;
+}
+.section1
+{
+	background:#ddd;
+	margin:0px -8px 20px -8px;
+	width:100%;
+	padding:10px;
+	position:fixed;	
+}
+.search1,.search2
+{
+	float:right;
+	margin-right:30px;
+}
+.search2
+{
+	margin-right:0px;
+}
+.a,.b
+{
+	margin-left:190px
+}
+.a
+{
+	margin-left:120px;
+}
+.link1
+{
+	background:blue;
+	width:70px;
+	margin:-10px;
+	margin-left:20px;
+	height:20px;
+	color:white;
+	padding:10px;
+	text-align:center;
+	margin-top:0px;
+	position:absolute;
+}
+.a,.b
+{	
+	padding-top:10px;
+	position:absolute;
+}
+.link1,.search2,.search1
+{
+	padding:10px;
+}
+
+.link2,.link3,.link4
+{
+	width:100px;
+	height:25px;
+	padding:10px;
+	margin:60px;
+	font-size:30px;
+	margin-left:-105px;
+	background:#00e6e6;
+	text-align:center;
+	position:fixed;
+	border-radius:30px;
+	cursor:pointer;
+}
+.section2 a
+{
+	display:block;
+}
+.link2:hover,.link3:hover,.link4:hover
+{
+	background:rgba(0, 128, 98,0.5);
+	margin-left:-40px;
+}
+.link2
+{
+	top:50px;
+}
+.link3
+{
+	top:98px;
+}
+.link4
+{
+	top:146px;
+}
+.div1
+{
+	width:50%;
+	margin:80px;
+	
+}
+div audio
+{
+	margin:20px;
+	width:20px;
+	text-align:center;
+	margin-left:330px;
+	margin-top:80px;
+}
+
+div audio:hover
+{
+	width:800px;
+	margin-left:-10px;
+}
+div video
+{
+	width:800px;
+	/*margin-left:-40px*/
+}
+.div2
+{
+	background:url("../images/img2.jpg");
+	height:540px;
+	margin:auto;
+	padding-top:180px;
+}
+.div2 section
+{
+	background:rgba(255, 102, 204, 0.6);
+	margin-left:200px;
+	margin:50px;
+	padding:20px
+}
+input
+{
+	border-radius:20px;
+	padding:10px;
+}
+.input
+{
+	display:block;
+	height:20px;
+	width:800px;
+	margin-left:25px;
+   background:#00e6e6;
+   color:black;
+   font-weight:bold;
+}
+.div2 label
+{
+	font-size:30px;
+	margin-left:300px;
+	color:#7300e6;
+}
+article
+{
+	width:40%;
+	margin:auto;
+}
+.submit,.reset
+{
+	width:120px;
+	height:40px;
+	margin-bottom:10px;
+	color:white;
+	cursor:pointer;
+}
+.submit
+{
+	background:#ffe066;
+}
+.reset
+{
+	background:black;
+}
+.submit:hover,.reset:hover
+{
+	background:#0080ff;
+}
+footer
+{
+	background:black;
+	height:30px;
+}
+
